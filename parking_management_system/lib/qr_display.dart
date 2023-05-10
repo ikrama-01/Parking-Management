@@ -40,7 +40,7 @@ class _ImageDisplayState extends State<ImageDisplay> {
   void downloadImage() async {
     if (imageBytes != null && imageBytes!.isNotEmpty) {
       String tempImagePath =
-          'C:/users/Rahul/parking_management_system/assets/images/downloaded_qr_codes/' +
+          'parking_management_system/assets/images/downloaded_qr_codes/' +
               fetched_username +
               '.jpg';
       await File(tempImagePath).writeAsBytes(imageBytes!);

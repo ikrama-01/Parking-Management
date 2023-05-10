@@ -13,6 +13,7 @@ An application created for maintaining Parking of an organization. User-End appl
 4. Python Enviornment
 
 
+
 -> Steps to run the project
 
 Step 1: Create a new project called 'parking_management_system'

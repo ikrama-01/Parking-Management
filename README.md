@@ -1,33 +1,54 @@
-# Parking-Management
-An application created for maintaining Parking of an organization. User-End application to register/login into the application and generate a QR Code of their Licence Plate which will be scanned at an automatic gate using QR Scanner.
+# Parking-Management  
 
+An application designed to streamline the parking management system for an organization. The application allows users to register, log in, and generate a QR code of their license plate, which can be scanned at an automated gate using a QR scanner.  
 
--> Prerequisites 
+## Table of Contents  
 
-1. Flutter Enviornment 
+- [Introduction](#introduction)  
+- [Prerequisites](#prerequisites)  
+- [Usage](#usage)  
+- [Demonstration](#demonstration)  
+- [Notes](#notes)  
+- [License](#license)  
 
-2. MySQL Enviornment with the following settings: username - "root", password - ""
+## Introduction  
 
-3. Xampp: https://www.apachefriends.org/download.html
+The Parking Management System is a user-friendly application that facilitates seamless parking management. It leverages Flutter for the frontend, Python for backend scripting, and MySQL as the database. The QR code functionality ensures efficient and automated parking entry and exit.  
 
-4. Python Enviornment
+## Prerequisites  
 
+1. **Flutter Environment**  
+   - Install Flutter by following the official documentation: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install).  
 
+2. **MySQL Environment**  
+   - Ensure MySQL is set up locally with the following credentials:  
+     - **Username**: `root`  
+     - **Password**: *(leave blank)*  
 
--> Steps to run the project
+3. **XAMPP**  
+   - Download and install XAMPP for running Apache and MySQL servers.  
+   - Official download link: [XAMPP Download](https://www.apachefriends.org/download.html).  
 
-Step 1: Create a new project called 'parking_management_system'
+4. **Python Environment**  
+   - Install Python from the official website: [Python Downloads](https://www.python.org/downloads/).  
 
-Step 2: Now, inside the project folder: Replace the folder 'lib' and 'assets'. Replace the file 'pubspec.yaml' [NOTE: Let the pubspec.yaml file run in vscode and create the required dependencies'] 
+## Usage
 
-Step 3: Inside the 'htdocs' folder of Xampp, paste the folder 'flutter_login_backend'
+1. Clone the repository and move to the project folder
+2. Ensure all prerequisites are installed and set up correctly.
+3. Obtain the `pubspec.yaml` file and place it in your Flutter project folder.
+4. Get the dependencies by **`flutter pub get`** in your project terminal
+5. Run the Flutter application on the web platform by writing **`flutter run web`** in your terminal
 
-Step 4: Run Xampp and start Apache and MySQL Server
+## Demonstration  
 
-Step 5: Import the 'database.sql' file in your MySQL on your computer or just use phpmyadmin to import it. [visit localhost/phpmyadmin from your browser] 
+Find a video demonstration of the application [here](https://drive.google.com/file/d/1X-kc6gFzgjcSO5agKLQglF41HhGNJkXl/view?usp=sharing).  
 
-Step 6: Now while the flutter project is open, type in the command 'flutter run' and select your appropriate method to run. [Windows Desktop Application Recommended] 
+## Notes  
 
-Step 7: Once the project runs successfully, you can type in 'flutter build ____' to generate an executable file for the application. [NOTE: The blankspace after flutter build refers to the operating system you are running, kindly check flutter documentation by just typing in 'flutter build' in the terminal] 
+- The application is currently optimized for the **web** platform and has not been thoroughly tested on Android.  
+- Future updates may include additional optimizations and support for multiple platforms.  
 
+## License  
 
+This project is open-source and free to use.  

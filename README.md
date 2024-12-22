@@ -1,4 +1,4 @@
-# Parking-Management  
+# ParkEazy - A Smart Parking-Management with Automated Gate Security
 
 An application designed to streamline the parking management system for an organization. The application allows users to register, log in, and generate a QR code of their license plate, which can be scanned at an automated gate using a QR scanner.  
 

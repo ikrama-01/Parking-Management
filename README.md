@@ -1,6 +1,6 @@
-# ParkEazy - A Smart Parking-Management with Automated Gate Security
+# ParkEazy - A Smart Parking-Management with Automated Gate Security  
 
-An application designed to streamline the parking management system for an organization. The application allows users to register, log in, and generate a QR code of their license plate, which can be scanned at an automated gate using a QR scanner.  
+This is a college project designed to streamline the parking management system for an organization. The application allows users to register, log in, and generate a QR code of their license plate, which can be scanned at an automated gate using a QR scanner.  
 
 ## Table of Contents  
 
@@ -32,17 +32,21 @@ The Parking Management System is a user-friendly application that facilitates se
 4. **Python Environment**  
    - Install Python from the official website: [Python Downloads](https://www.python.org/downloads/).  
 
-## Usage
+## Usage  
 
-1. Clone the repository and move to the project folder
-2. Ensure all prerequisites are installed and set up correctly.
-3. Obtain the `pubspec.yaml` file and place it in your Flutter project folder.
-4. Get the dependencies by **`flutter pub get`** in your project terminal
-5. Run the Flutter application on the web platform by writing **`flutter run web`** in your terminal
+1. Clone the repository and move to the project folder.  
+2. Ensure all prerequisites are installed and set up correctly.  
+3. Obtain the `pubspec.yaml` file and place it in your Flutter project folder.  
+4. Get the dependencies by running **`flutter pub get`** in your project terminal.  
+5. Run the Flutter application on the web platform by executing **`flutter run -d web`** in your terminal.  
 
 ## Demonstration  
 
 Find a video demonstration of the application [here](https://drive.google.com/file/d/1X-kc6gFzgjcSO5agKLQglF41HhGNJkXl/view?usp=sharing).  
+
+## Official Documentation  
+
+For an official college documentation, you can refer to [this document](https://drive.google.com/file/d/1dGB33NI2ibePoaZskCZfU6tGqFKcXj6y/view?usp=sharing).  
 
 ## Notes  
 
@@ -51,4 +55,4 @@ Find a video demonstration of the application [here](https://drive.google.com/fi
 
 ## License  
 
-This project is open-source and free to use.  
+This project is open-source and free to use.
